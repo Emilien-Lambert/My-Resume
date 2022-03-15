@@ -33,7 +33,7 @@ defineProps({
             title
           )
         "
-        class="text-lg text-cyan-400 w-1/4"
+        class="text-lg text-cyan-400 w-1/4 gap-2"
       >
         <div>De {{ data.firstDate }} à {{ data.secondDate }}</div>
       </div>

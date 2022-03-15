@@ -105,12 +105,16 @@ const skills = [
     skillValue: 62,
   },
   {
+    skillName: "CI/CD",
+    skillValue: 62,
+  },
+  {
     skillName: "MacOS",
     skillValue: 95,
   },
   {
     skillName: "Node.js",
-    skillValue: 45,
+    skillValue: 57,
   },
   {
     skillName: "Vue.js",
@@ -125,9 +129,16 @@ const skills = [
     skillValue: 31,
   },
   {
+    skillName: "Docker",
+    skillValue: 63,
+  },
+  {
     skillName: "Anglais",
     skillValue: 42,
-    quaterValue: "it's over 9000!",
+  },
+  {
+    skillName: "Cypress",
+    skillValue: 78,
   },
   {
     skillName: "Curiosité",
@@ -140,11 +151,11 @@ const skills = [
 
 <template>
   <MyHeader />
-  <div class="flex justify-around mt-8">
+  <div class="flex justify-around mt-6">
     <MyList :datas="formation" title="Diplôme et Formations" />
     <MyList :datas="experience" title="Expériences professionnelles" />
   </div>
-  <div class="mx-16">
+  <div class="mx-16 mb-10">
     <SkillsBar :datas="skills" title="Compétances" />
   </div>
 </template>

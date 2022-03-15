@@ -15,7 +15,7 @@ const age = computed(() => {
     <img
       alt="profile picture"
       class="rounded-full w-2/12"
-      src="/src/assets/profile1.jpeg"
+      src="/src/assets/profile.jpeg"
     />
     <div class="flex flex-col w-1/2 justify-center">
       <div>
