@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from "vue";
+import MySwitch from "@/components/MySwitch.vue";
 
 const birthday = "08/01/1994";
 
@@ -55,14 +56,17 @@ const age = computed(() => {
         </div>
       </div>
     </div>
-    <lottie-player
-      autoplay
-      background="transparent"
-      loop
-      speed="1"
-      src="https://assets4.lottiefiles.com/packages/lf20_kyu7xb1v.json"
-      style="width: 200px; height: 200px"
-    ></lottie-player>
+    <div class="flex flex-col items-center">
+      <lottie-player
+        autoplay
+        background="transparent"
+        loop
+        speed="1"
+        src="https://assets4.lottiefiles.com/packages/lf20_kyu7xb1v.json"
+        style="width: 200px; height: 200px"
+      ></lottie-player>
+      <MySwitch />
+    </div>
   </div>
 </template>
 
