@@ -42,8 +42,18 @@ defineProps({
         <div class="w-full h-2 bg-gray-300 rounded-full">
           <div
             :style="`width: ${data.skillValue}%`"
-            class="h-2 bg-purple-600 rounded-full"
-          />
+            class="relative h-2 bg-purple-600 rounded-full"
+          >
+            <iframe
+              v-if="dataIndex === datas.length - 1"
+              allowFullScreen
+              class="absolute left-full bottom-0"
+              frameBorder="0"
+              height="359"
+              src="https://giphy.com/embed/tPKoWQJk3cEbC"
+              width="480"
+            ></iframe>
+          </div>
           <div class="mt-1 text-indigo-300">{{ data.quaterValue }}</div>
         </div>
       </div>
