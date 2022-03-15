@@ -146,7 +146,6 @@ const skills = [
     quaterValue: "it's over 9000!",
   },
 ];
-// const hobbies = [{}];
 </script>
 
 <template>
