@@ -102,7 +102,7 @@ const skills = [
   },
   {
     skillName: "Linux",
-    skillValue: 62,
+    skillValue: 70,
   },
   {
     skillName: "CI/CD",
@@ -156,7 +156,7 @@ const skills = [
     <MyList :datas="experience" title="Expériences professionnelles" />
   </div>
   <div class="mx-16 mb-10">
-    <SkillsBar :datas="skills" title="Compétances" />
+    <SkillsBar :datas="skills" title="Compétences" />
   </div>
 </template>
 

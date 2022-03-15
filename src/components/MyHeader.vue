@@ -25,29 +25,33 @@ const age = computed(() => {
       <div class="w-1/3 h-2 bg-white my-3 rounded-full" />
       <div class="grid grid-cols-2 gap-3">
         <div>
-          <span>✉️ </span>
+          <span class="mx-2">✉️</span>
           <a href="mailto:lee-kewpie.0l@icloud.com" itemprop="email"
             >lee-kewpie.0l@icloud.com</a
           >
         </div>
         <div>
-          <span>🎂 {{ age }} ans</span>
+          <span class="mx-2">🎂</span>
+          <span>{{ age }} ans</span>
         </div>
         <div>
-          <span>📞 06 74 27 22 43</span>
+          <span class="mx-2">📞</span>
+          <span>06 74 27 22 43</span>
         </div>
         <div>
-          <span>🎟 Permis A, B</span>
+          <span class="mx-2">🎟</span>
+          <span>Permis A, B</span>
         </div>
         <div class="flex">
-          🏠 
+          <span class="mx-2">🏠</span>
           <div class="flex flex-col">
             <div>25 Avenue Du Bois Chatel</div>
             <div>54270 Essey-Les-Nancy</div>
           </div>
         </div>
         <div>
-          <span>🚗 Véhicule personnel</span>
+          <span class="mx-2">🚗</span>
+          <span>Véhicule personnel</span>
         </div>
       </div>
     </div>
