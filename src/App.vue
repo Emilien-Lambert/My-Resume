@@ -1,6 +1,7 @@
 <script setup>
-import MyHeader from "./components/MyHeader.vue";
-import MyList from "./components/MyList.vue";
+import MyHeader from "@/components/MyHeader.vue";
+import MyList from "@/components/MyList.vue";
+import SkillsBar from "@/components/SkillsBar.vue";
 
 const formation = [
   {
@@ -94,18 +95,57 @@ const experience = [
       "Technicien de maintenance industriel dans le secteur des pompes centrifuges et volumétriques.",
   },
 ];
-// const skills = [{}];
-const hobbies = [{}];
+const skills = [
+  {
+    skillName: "Html Css",
+    skillValue: 76,
+  },
+  {
+    skillName: "Linux",
+    skillValue: 62,
+  },
+  {
+    skillName: "MacOS",
+    skillValue: 95,
+  },
+  {
+    skillName: "Node.js",
+    skillValue: 45,
+  },
+  {
+    skillName: "Vue.js",
+    skillValue: 74,
+  },
+  {
+    skillName: "Python",
+    skillValue: 47,
+  },
+  {
+    skillName: "MongoDB",
+    skillValue: 31,
+  },
+  {
+    skillName: "Anglais",
+    skillValue: 42,
+    quaterValue: "it's over 9000!",
+  },
+  {
+    skillName: "Curiosité",
+    skillValue: 900,
+    quaterValue: "it's over 9000!",
+  },
+];
+// const hobbies = [{}];
 </script>
 
 <template>
   <MyHeader />
-  <div class="flex justify-around my-5">
+  <div class="flex justify-around mt-8">
     <MyList :datas="formation" title="Diplôme et Formations" />
     <MyList :datas="experience" title="Expériences professionnelles" />
   </div>
-  <div class="flex justify-around my-5">
-    <MyList :datas="hobbies" title="Centes d'intérêt" />
+  <div class="mx-16">
+    <SkillsBar :datas="skills" title="Compétances" />
   </div>
 </template>
 
