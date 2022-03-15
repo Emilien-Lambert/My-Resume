@@ -27,7 +27,7 @@ const age = computed(() => {
         <div>
           <span>✉️ </span>
           <a href="mailto:lee-kewpie.0l@icloud.com" itemprop="email"
-            >l.emilien@icloud.com</a
+            >lee-kewpie.0l@icloud.com</a
           >
         </div>
         <div>

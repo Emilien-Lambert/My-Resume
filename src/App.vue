@@ -55,7 +55,8 @@ const experience = [
     firstValue: "Développeur Web Front-End",
     secondValue: "Digitsole.",
     thirdValue: "Nancy, France",
-    quaterValue: "",
+    quaterValue:
+      "Développeur web Vue.js, Node.js sur l'application de e-santé Podo Smart. ",
   },
   {
     firstDate: "août 2019",
@@ -63,34 +64,38 @@ const experience = [
     firstValue: "Développeur Web Front-End",
     secondValue: "60FPS.",
     thirdValue: "Nancy, France",
-    quaterValue: "",
+    quaterValue: "Développeur de site web, emploi d'été.",
   },
   {
     firstDate: "2017",
     secondDate: "2018",
-    firstValue: "Responsable de projet maintenance",
+    firstValue: "Responsable de projets maintenance",
     secondValue: "NOVARTIS PHARMA",
     thirdValue: "Huningue, France",
     quaterValue:
-      "Responsable de projet de maintenance et d'amélioration dans le secteur pharmaceutique et biotechnologies, production de bio-médicaments (anticorps monoclonaux)",
+      "Responsable de projet de maintenance et d'amélioration dans le secteur pharmaceutique et biotechnologies, production de bio-médicaments (anticorps monoclonaux).",
   },
   {
-    firstDate: "",
-    secondDate: "",
-    firstValue: "Faculté de Sciences - Physique Chimie",
-    secondValue: "Université de Lorraine - FST",
-    thirdValue: "Nancy, France",
-    quaterValue: "",
+    firstDate: "2013",
+    secondDate: "2015",
+    firstValue: "Technicien supérieur de maintenance",
+    secondValue: "FIVES CRYO",
+    thirdValue: "Golbey, France",
+    quaterValue:
+      "Technicien supérieur dans le milieu de la conception d'échangeurs thermiques à plaques et ondes en aluminium brasées.",
   },
   {
-    firstDate: "",
-    secondDate: "",
-    firstValue: "BTS - Maintenance Industrielle bac+2",
-    secondValue: "CFAI Lorraine",
+    firstDate: "2010",
+    secondDate: "2013",
+    firstValue: "Technicien de maintenance",
+    secondValue: "POMPES SERVICE LORRAINE",
     thirdValue: "Nancy, France",
-    quaterValue: "",
+    quaterValue:
+      "Technicien de maintenance industriel dans le secteur des pompes centrifuges et volumétriques.",
   },
 ];
+// const skills = [{}];
+const hobbies = [{}];
 </script>
 
 <template>
@@ -98,6 +103,9 @@ const experience = [
   <div class="flex justify-around my-5">
     <MyList :datas="formation" title="Diplôme et Formations" />
     <MyList :datas="experience" title="Expériences professionnelles" />
+  </div>
+  <div class="flex justify-around my-5">
+    <MyList :datas="hobbies" title="Centes d'intérêt" />
   </div>
 </template>
 
