@@ -142,7 +142,7 @@ const skills = [
   },
   {
     skillName: "Curiosité",
-    skillValue: 900,
+    skillValue: 300,
     quaterValue: "it's over 9000!",
   },
 ];
