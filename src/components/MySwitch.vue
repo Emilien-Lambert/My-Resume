@@ -6,7 +6,7 @@ const enabled = ref(false);
 </script>
 
 <template>
-  <div class="inline-flex items-center gap-3">
+  <div class="inline-flex gap-3 items-center">
     <span>French</span>
     <Switch
       v-model="enabled"

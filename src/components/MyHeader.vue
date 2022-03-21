@@ -11,19 +11,19 @@ const age = computed(() => {
 
 <template>
   <div
-    class="flex py-6 justify-around items-center text-white bg-gradient-to-br from-purple-900 to-cyan-200"
+    class="flex justify-around items-center py-6 text-white bg-gradient-to-br from-purple-900 to-cyan-200"
   >
     <img
       alt="profile picture"
-      class="rounded-full w-2/12"
+      class="w-2/12 rounded-full"
       src="/src/assets/profile.jpeg"
     />
-    <div class="flex flex-col w-1/2 justify-center">
+    <div class="flex flex-col justify-center w-1/2">
       <div>
         <div class="text-5xl font-bold">Emilien Lambert</div>
         <div>Développeur informatique</div>
       </div>
-      <div class="w-1/3 h-2 bg-white my-3 rounded-full" />
+      <div class="my-3 w-1/3 h-2 bg-white rounded-full" />
       <div class="grid grid-cols-2 gap-3">
         <div>
           <span class="mx-2">✉️</span>

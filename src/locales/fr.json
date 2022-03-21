@@ -1,3 +1,104 @@
 {
-  "value": "bonjour le monde"
+  "diploma_title": "Diplôme et Formations",
+  "work_title": "Expériences professionnelles",
+  "more_details": "Pour plus de détail, consultez mes repositories sur :",
+  "skills_title": "Compétences",
+  "formations": {
+    "1": {
+      "formation": "Master - Architecture logiciel, développeur d'applications bac+5",
+      "school": "Epitech - Le futur de l’informatique. Le meilleur de l’innovation.",
+      "location": "Nancy, France"
+    },
+    "2": {
+      "formation": "Licence - Responsable de Projet Web et Mobile bac+3",
+      "school": "Epitech - Le futur de l’informatique. Le meilleur de l’innovation.",
+      "location": "Nancy, France",
+      "hint": "Major de promotion 2019 - 2020"
+    },
+    "3": {
+      "formation": "Licence - Techniques et Technologies Avancées de Maintenance bac+3",
+      "school": "Université de Lorraine.",
+      "location": "Nancy, France"
+    },
+    "4": {
+      "formation": "Faculté de Sciences - Physique Chimie",
+      "school": "Université de Lorraine - FST.",
+      "location": "Nancy, France"
+    },
+    "5": {
+      "formation": "BTS - Maintenance Industrielle bac+2",
+      "school": "CFAI Lorraine.",
+      "location": "Nancy, France"
+    }
+  },
+  "experiences": {
+    "1": {
+      "job": "Développeur Web Front-End",
+      "company": "DIGITSOLE",
+      "location": "Nancy, France",
+      "hint": "Développeur web Vue.js, Node.js sur l'application de e-santé Podo Smart."
+    },
+    "2": {
+      "job": "Développeur Web Front-End",
+      "company": "60FPS.",
+      "location": "Nancy, France",
+      "hint": "Développeur de site web, emploi d'été."
+    },
+    "3": {
+      "job": "Responsable de projets maintenance",
+      "company": "NOVARTIS PHARMA",
+      "location": "Huningue, France",
+      "hint": "Responsable de projet de maintenance et d'amélioration dans le secteur pharmaceutique et biotechnologies, production de bio-médicaments (anticorps monoclonaux)."
+    },
+    "4": {
+      "job": "Technicien supérieur de maintenance",
+      "company": "FIVES CRYO",
+      "location": "Golbey, France",
+      "hint": "Technicien supérieur dans le milieu de la conception d'échangeurs thermiques à plaques et ondes en aluminium brasées."
+    },
+    "5": {
+      "job": "Technicien de maintenance",
+      "company": "POMPES SERVICE LORRAINE",
+      "location": "Nancy, France",
+      "hint": "Technicien de maintenance industriel dans le secteur des pompes centrifuges et volumétriques."
+    }
+  },
+  "skills": {
+    "1": {
+      "skill_name": "Html Css"
+    },
+    "2": {
+      "skill_name": "Linux"
+    },
+    "3": {
+      "skill_name": "CI/CD"
+    },
+    "4": {
+      "skill_name": "MacOS"
+    },
+    "5": {
+      "skill_name": "Node.js"
+    },
+    "6": {
+      "skill_name": "Vue.js"
+    },
+    "7": {
+      "skill_name": "Python"
+    },
+    "8": {
+      "skill_name": "MongoDB"
+    },
+    "9": {
+      "skill_name": "Docker"
+    },
+    "10": {
+      "skill_name": "Anglais"
+    },
+    "11": {
+      "skill_name": "Cypress"
+    },
+    "12": {
+      "skill_name": "Curiosité"
+    }
+  }
 }

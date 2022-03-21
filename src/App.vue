@@ -7,143 +7,135 @@ const formation = [
   {
     firstDate: "2020",
     secondDate: "2022",
-    firstValue:
-      "Master - Architecture logiciel, développeur d'applications bac+5",
-    secondValue:
-      "Epitech - Le futur de l’informatique. Le meilleur de l’innovation.",
-    thirdValue: "Nancy, France",
-    quaterValue: "",
+    firstValue: "formations.1.formation",
+    secondValue: "formations.1.school",
+    thirdValue: "formations.1.location",
+    fourthValue: "",
   },
   {
     firstDate: "2019",
     secondDate: "2020",
-    firstValue: "Licence - Responsable de Projet Web et Mobile bac+3",
-    secondValue:
-      "Epitech - Le futur de l’informatique. Le meilleur de l’innovation.",
-    thirdValue: "Nancy, France",
-    quaterValue: "Major de promotion 2019 - 2020",
+    firstValue: "formations.2.formation",
+    secondValue: "formations.2.school",
+    thirdValue: "formations.2.location",
+    fourthValue: "formations.2.hint",
   },
   {
     firstDate: "2017",
     secondDate: "2018",
-    firstValue:
-      "Licence - Techniques et Technologies Avancées de Maintenance bac+3",
-    secondValue: "Université de Lorraine.",
-    thirdValue: "Nancy, France",
-    quaterValue: "",
+    firstValue: "formations.3.formation",
+    secondValue: "formations.3.school",
+    thirdValue: "formations.3.location",
+    fourthValue: "",
   },
   {
     firstDate: "2015",
     secondDate: "2017",
-    firstValue: "Faculté de Sciences - Physique Chimie",
-    secondValue: "Université de Lorraine - FST.",
-    thirdValue: "Nancy, France",
-    quaterValue: "",
+    firstValue: "formations.4.formation",
+    secondValue: "formations.4.school",
+    thirdValue: "formations.4.location",
+    fourthValue: "",
   },
   {
     firstDate: "2013",
     secondDate: "2015",
-    firstValue: "BTS - Maintenance Industrielle bac+2",
-    secondValue: "CFAI Lorraine.",
-    thirdValue: "Nancy, France",
-    quaterValue: "",
+    firstValue: "formations.5.formation",
+    secondValue: "formations.5.school",
+    thirdValue: "formations.5.location",
+    fourthValue: "",
   },
 ];
 const experience = [
   {
     firstDate: "2019",
     secondDate: "2022",
-    firstValue: "Développeur Web Front-End",
-    secondValue: "Digitsole.",
-    thirdValue: "Nancy, France",
-    quaterValue:
-      "Développeur web Vue.js, Node.js sur l'application de e-santé Podo Smart. ",
+    firstValue: "experiences.1.job",
+    secondValue: "experiences.1.company",
+    thirdValue: "experiences.1.location",
+    fourthValue: "experiences.1.hint",
   },
   {
     firstDate: "août 2019",
     secondDate: "sept 2019",
-    firstValue: "Développeur Web Front-End",
-    secondValue: "60FPS.",
-    thirdValue: "Nancy, France",
-    quaterValue: "Développeur de site web, emploi d'été.",
+    firstValue: "experiences.2.job",
+    secondValue: "experiences.2.company",
+    thirdValue: "experiences.2.location",
+    fourthValue: "experiences.2.hint",
   },
   {
     firstDate: "2017",
     secondDate: "2018",
-    firstValue: "Responsable de projets maintenance",
-    secondValue: "NOVARTIS PHARMA",
-    thirdValue: "Huningue, France",
-    quaterValue:
-      "Responsable de projet de maintenance et d'amélioration dans le secteur pharmaceutique et biotechnologies, production de bio-médicaments (anticorps monoclonaux).",
+    firstValue: "experiences.3.job",
+    secondValue: "experiences.3.company",
+    thirdValue: "experiences.3.location",
+    fourthValue: "experiences.3.hint",
   },
   {
     firstDate: "2013",
     secondDate: "2015",
-    firstValue: "Technicien supérieur de maintenance",
-    secondValue: "FIVES CRYO",
-    thirdValue: "Golbey, France",
-    quaterValue:
-      "Technicien supérieur dans le milieu de la conception d'échangeurs thermiques à plaques et ondes en aluminium brasées.",
+    firstValue: "experiences.4.job",
+    secondValue: "experiences.4.company",
+    thirdValue: "experiences.4.location",
+    fourthValue: "experiences.4.hint",
   },
   {
     firstDate: "2010",
     secondDate: "2013",
-    firstValue: "Technicien de maintenance",
-    secondValue: "POMPES SERVICE LORRAINE",
-    thirdValue: "Nancy, France",
-    quaterValue:
-      "Technicien de maintenance industriel dans le secteur des pompes centrifuges et volumétriques.",
+    firstValue: "experiences.5.job",
+    secondValue: "experiences.5.company",
+    thirdValue: "experiences.5.location",
+    fourthValue: "experiences.5.hint",
   },
 ];
 const skills = [
   {
-    skillName: "Html Css",
+    skillName: "skills.1.skill_name",
     skillValue: 76,
   },
   {
-    skillName: "Linux",
+    skillName: "skills.2.skill_name",
     skillValue: 70,
   },
   {
-    skillName: "CI/CD",
+    skillName: "skills.3.skill_name",
     skillValue: 62,
   },
   {
-    skillName: "MacOS",
+    skillName: "skills.4.skill_name",
     skillValue: 95,
   },
   {
-    skillName: "Node.js",
+    skillName: "skills.5.skill_name",
     skillValue: 57,
   },
   {
-    skillName: "Vue.js",
+    skillName: "skills.6.skill_name",
     skillValue: 74,
   },
   {
-    skillName: "Python",
+    skillName: "skills.7.skill_name",
     skillValue: 47,
   },
   {
-    skillName: "MongoDB",
+    skillName: "skills.8.skill_name",
     skillValue: 31,
   },
   {
-    skillName: "Docker",
+    skillName: "skills.9.skill_name",
     skillValue: 63,
   },
   {
-    skillName: "Anglais",
+    skillName: "skills.10.skill_name",
     skillValue: 42,
   },
   {
-    skillName: "Cypress",
+    skillName: "skills.11.skill_name",
     skillValue: 78,
   },
   {
-    skillName: "Curiosité",
+    skillName: "skills.12.skill_name",
     skillValue: 300,
-    quaterValue: "it's over 9000!",
+    fourthValue: "it's over 9000!",
   },
 ];
 </script>
@@ -151,11 +143,11 @@ const skills = [
 <template>
   <MyHeader />
   <div class="flex justify-around mt-6">
-    <MyList :datas="formation" title="Diplôme et Formations" />
-    <MyList :datas="experience" title="Expériences professionnelles" />
+    <MyList :datas="formation" title="diploma_title" />
+    <MyList :datas="experience" title="work_title" />
   </div>
   <div class="mx-16 mb-10">
-    <SkillsBar :datas="skills" title="Compétences" />
+    <SkillsBar :datas="skills" title="skills_title" />
   </div>
 </template>
 

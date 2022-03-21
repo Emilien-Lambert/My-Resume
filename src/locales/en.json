@@ -1,3 +1,104 @@
 {
-  "value": "hello world"
+  "diploma_title": "Diploma and Training",
+  "work_title": "Professional experience",
+  "more_details": "For more details, see my repositories on :",
+  "skills_title": "Skills",
+  "formations": {
+    "1": {
+      "formation": "Master - Software architecture, application developer",
+      "school": "Epitech - The future of computing. The best of innovation.",
+      "location": "Nancy, France"
+    },
+    "2": {
+      "formation": "Bachelor's degree - Web and Mobile Project Manager",
+      "school": "Epitech - The future of computing. The best of innovation.",
+      "location": "Nancy, France",
+      "hint": "Major of promotion 2019 - 2020"
+    },
+    "3": {
+      "formation": "Licence - Advanced Maintenance Techniques and Technologies bac+3",
+      "school": "University of Lorraine.",
+      "location": "Nancy, France"
+    },
+    "4": {
+      "formation": "Faculty of Science - Physics and Chemistry",
+      "school": "University of Lorraine - FST.",
+      "location": "Nancy, France"
+    },
+    "5": {
+      "formation": "BTS - Industrial Maintenance",
+      "school": "CFAI Lorraine.",
+      "location": "Nancy, France"
+    }
+  },
+  "experiences": {
+    "1": {
+      "job": "Front-End Web Developer",
+      "company": "DIGITSOLE",
+      "location": "Nancy, France",
+      "hint": "Web developer Vue.js, Node.js on the health tech application Podo Smart."
+    },
+    "2": {
+      "job": "Front-End Web Developer",
+      "company": "60FPS.",
+      "location": "Nancy, France",
+      "hint": "Web developer, summer job."
+    },
+    "3": {
+      "job": "Maintenance project manager",
+      "company": "NOVARTIS PHARMA",
+      "location": "Huningue, France",
+      "hint": "Maintenance and improvement project manager in the pharmaceutical and biotechnology sector, production of bio-drugs (monoclonal antibodies)."
+    },
+    "4": {
+      "job": "Maintenance Technician",
+      "company": "FIVES CRYO",
+      "location": "Golbey, France",
+      "hint": "Technician in the field of brazed aluminum plate and wave heat exchanger design."
+    },
+    "5": {
+      "job": "Maintenance technician",
+      "company": "POMPES SERVICE LORRAINE",
+      "location": "Nancy, France",
+      "hint": "Industrial maintenance technician in the centrifugal and positive displacement pump sector."
+    }
+  },
+  "skills": {
+    "1": {
+      "skill_name": "Html Css"
+    },
+    "2": {
+      "skill_name": "Linux"
+    },
+    "3": {
+      "skill_name": "CI/CD"
+    },
+    "4": {
+      "skill_name": "MacOS"
+    },
+    "5": {
+      "skill_name": "Node.js"
+    },
+    "6": {
+      "skill_name": "Vue.js"
+    },
+    "7": {
+      "skill_name": "Python"
+    },
+    "8": {
+      "skill_name": "MongoDB"
+    },
+    "9": {
+      "skill_name": "Docker"
+    },
+    "10": {
+      "skill_name": "English"
+    },
+    "11": {
+      "skill_name": "Cypress"
+    },
+    "12": {
+      "skill_name": "Curiosity"
+    }
+  }
 }
