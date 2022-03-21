@@ -7,7 +7,7 @@ const enabled = ref(false);
 
 <template>
   <div class="inline-flex gap-3 items-center">
-    <span>French</span>
+    <span>Français</span>
     <Switch
       v-model="enabled"
       :class="[
@@ -15,7 +15,6 @@ const enabled = ref(false);
         'relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500',
       ]"
     >
-      <span class="sr-only">Use setting</span>
       <span
         :class="[
           enabled ? 'translate-x-5' : 'translate-x-0',
