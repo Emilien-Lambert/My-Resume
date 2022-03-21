@@ -126,7 +126,7 @@ const skills = [
   },
   {
     skillName: "skills.10.skill_name",
-    skillValue: 42,
+    skillValue: 56,
   },
   {
     skillName: "skills.11.skill_name",
