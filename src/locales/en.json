@@ -9,7 +9,7 @@
   "skills_title": "Skills",
   "formations": {
     "1": {
-      "formation": "Master - Software architecture, application developer",
+      "formation": "Master’s degree - Software architect, application developer",
       "school": "Epitech - The future of computing. The best of innovation.",
       "location": "Nancy, France"
     },
@@ -20,7 +20,7 @@
       "hint": "Major of promotion 2019 - 2020"
     },
     "3": {
-      "formation": "Licence - Advanced Maintenance Techniques and Technologies bac+3",
+      "formation": "Bachelor's degree - Advanced Maintenance Techniques and Technologies bac+3",
       "school": "University of Lorraine.",
       "location": "Nancy, France"
     },
@@ -30,7 +30,7 @@
       "location": "Nancy, France"
     },
     "5": {
-      "formation": "BTS - Industrial Maintenance",
+      "formation": "Two-year technical degree - Industrial Maintenance",
       "school": "CFAI Lorraine.",
       "location": "Nancy, France"
     }
