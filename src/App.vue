@@ -10,7 +10,7 @@ const formation = [
     firstValue: "formations.1.formation",
     secondValue: "formations.1.school",
     thirdValue: "formations.1.location",
-    fourthValue: "",
+    fourthValue: "formations.1.hint",
   },
   {
     firstDate: "2019",

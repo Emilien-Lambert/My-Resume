@@ -11,7 +11,8 @@
     "1": {
       "formation": "Master - Architecte logiciel, développeur d'applications bac+5",
       "school": "Epitech - Le futur de l’informatique. Le meilleur de l’innovation.",
-      "location": "Nancy, France"
+      "location": "Nancy, France",
+      "hint": "Spécialité : Intelligence Artificielle"
     },
     "2": {
       "formation": "Licence - Responsable de Projet Web et Mobile bac+3",

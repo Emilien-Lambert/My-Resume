@@ -11,7 +11,8 @@
     "1": {
       "formation": "Master’s degree - Software architect, application developer",
       "school": "Epitech - The future of computing. The best of innovation.",
-      "location": "Nancy, France"
+      "location": "Nancy, France",
+      "hint": "Specialty: Artificial Intelligence"
     },
     "2": {
       "formation": "Bachelor's degree - Web and Mobile Project Manager",
