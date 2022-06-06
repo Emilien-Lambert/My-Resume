@@ -37,7 +37,7 @@ const age = computed(() => {
         </div>
         <div>
           <span class="mx-2">📞</span>
-          <span>06 74 27 22 43</span>
+          <span>** ** ** ** **</span>
         </div>
         <div>
           <span class="mx-2">🎟</span>
