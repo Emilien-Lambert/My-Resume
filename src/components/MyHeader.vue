@@ -1,8 +1,14 @@
 <script setup>
-import { computed } from "vue";
+import { computed, ref } from "vue";
 import MySwitch from "@/components/MySwitch.vue";
+import { vElementHover } from "@vueuse/components";
 
 const birthday = "08/01/1994";
+
+const isHovered = ref(false);
+function onHover(state) {
+  isHovered.value = state;
+}
 
 const age = computed(() => {
   return new Date().getFullYear() - new Date(birthday).getFullYear();
@@ -37,7 +43,9 @@ const age = computed(() => {
         </div>
         <div>
           <span class="mx-2">📞</span>
-          <span>** ** ** ** **</span>
+          <span v-element-hover="onHover">{{
+            isHovered ? "06 74 27 22 43" : $t("hover_me_to_see")
+          }}</span>
         </div>
         <div>
           <span class="mx-2">🎟</span>

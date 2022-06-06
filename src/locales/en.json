@@ -7,6 +7,7 @@
   "driver's_license": "Driver's license, car and bike",
   "personal_vehicle": "Personal vehicle",
   "skills_title": "Skills",
+  "hover_me_to_see": "Hover me to see",
   "formations": {
     "1": {
       "formation": "Master’s degree - Software architect, application developer",

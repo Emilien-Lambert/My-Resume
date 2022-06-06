@@ -7,6 +7,7 @@
   "driver's_license": "Permis A, B",
   "personal_vehicle": "Véhicule personnel",
   "skills_title": "Compétences",
+  "hover_me_to_see": "Survolez moi pour voir",
   "formations": {
     "1": {
       "formation": "Master - Architecte logiciel, développeur d'applications bac+5",
